@@ -1,0 +1,31 @@
+{
+  "name": "alpinejs-noscroll",
+  "version": "1.0.0",
+  "description": "Aplugin for AlpineJS to disable and enable body scrolling.",
+  "main": "dist/alpinejs-noscroll.js",
+  "scripts": {
+    "test": "echo \\\"No tests specified\\\" && exit 0",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bahbv/alpinejs-noscroll.git"
+  },
+  "author": "Bob Vrijland",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bahbv/alpinejs-noscroll/issues"
+  },
+  "homepage": "https://github.com/Bahbv/alpinejs-noscroll#readme",
+  "dependencies": {
+    "body-scroll-lock": "^4.0.0-beta.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "babel-loader": "^9.1.3",
+    "terser-webpack-plugin": "^5.3.10",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
